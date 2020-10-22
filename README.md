@@ -1,2 +1,2 @@
 # Easy-Buy-Store
-An E-commerce site Developed MERN stack technologies
+An E-commerce site Developed using MERN stack technologies
