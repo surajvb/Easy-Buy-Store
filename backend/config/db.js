@@ -7,9 +7,9 @@ const connectDB = async () => {
       useUnifiedTopology: true,
       useNewUrlParser: true,
     });
-    console.log(`Mongo Connected ${conn.connection.host}`);
+    console.log(`Mongo Connected ${conn.connection.host}`.cyan.underline);
   } catch (error) {
-    console.error(`Mongo connection failed Error: ${error.message}`);
+    console.error(`Mongo connection failed Error: ${error.message}`.red.underline.bold);
     process.exit(1); // if we pass 1 process will exit with failure
   }
 };
